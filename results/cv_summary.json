@@ -1,0 +1,72 @@
+{
+  "mean_accuracy": 0.9762334466190087,
+  "std_accuracy": 0.003761409314751796,
+  "mean_horn_recall": 0.9809836065573772,
+  "std_horn_recall": 0.014648070756517154,
+  "mean_horn_precision": 0.7585234680890187,
+  "std_horn_precision": 0.02714792151970372,
+  "mean_horn_f1": 0.8553689126565907,
+  "std_horn_f1": 0.02131071595776588,
+  "best_fold": 5,
+  "best_fold_f1": 0.888235294117647,
+  "threshold": 0.62,
+  "pos_weight": 4.33,
+  "model": "HornDetectorCNN (~326,785 params)",
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "total_time_seconds": 1657.034259557724,
+  "device": "cuda",
+  "per_fold": [
+    {
+      "fold": 1,
+      "accuracy": 0.9782022735263096,
+      "horn_recall": 0.9918032786885246,
+      "horn_precision": 0.7697201017811705,
+      "horn_f1": 0.8667621776504298,
+      "best_epoch": 50,
+      "best_test_loss": 0.07166594524208496,
+      "checkpoint": "checkpoints\\best_fold_1.pth"
+    },
+    {
+      "fold": 2,
+      "accuracy": 0.9710535567795617,
+      "horn_recall": 0.9524590163934427,
+      "horn_precision": 0.7271589486858573,
+      "horn_f1": 0.8246983676366217,
+      "best_epoch": 50,
+      "best_test_loss": 0.12003280804467976,
+      "checkpoint": "checkpoints\\best_fold_2.pth"
+    },
+    {
+      "fold": 3,
+      "accuracy": 0.9755068557365522,
+      "horn_recall": 0.9885245901639345,
+      "horn_precision": 0.7490683229813665,
+      "horn_f1": 0.8522968197879859,
+      "best_epoch": 46,
+      "best_test_loss": 0.07908960420026682,
+      "checkpoint": "checkpoints\\best_fold_3.pth"
+    },
+    {
+      "fold": 4,
+      "accuracy": 0.9742177428805813,
+      "horn_recall": 0.9819672131147541,
+      "horn_precision": 0.7413366336633663,
+      "horn_f1": 0.844851904090268,
+      "best_epoch": 44,
+      "best_test_loss": 0.081386115951194,
+      "checkpoint": "checkpoints\\best_fold_4.pth"
+    },
+    {
+      "fold": 5,
+      "accuracy": 0.982186804172038,
+      "horn_recall": 0.9901639344262295,
+      "horn_precision": 0.8053333333333333,
+      "horn_f1": 0.888235294117647,
+      "best_epoch": 45,
+      "best_test_loss": 0.06405130989712483,
+      "checkpoint": "checkpoints\\best_fold_5.pth"
+    }
+  ]
+}

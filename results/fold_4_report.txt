@@ -1,0 +1,19 @@
+Fold 4
+Best epoch  : 44
+Threshold   : 0.62
+pos_weight  : 4.33
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       Noise     0.9986    0.9736    0.9859      7923
+        Horn     0.7413    0.9820    0.8449       610
+
+    accuracy                         0.9742      8533
+   macro avg     0.8700    0.9778    0.9154      8533
+weighted avg     0.9802    0.9742    0.9759      8533
+
+Confusion Matrix:
+                Pred Noise   Pred Horn
+Actual Noise       7,714         209
+Actual Horn           11         599
